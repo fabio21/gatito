@@ -31,7 +31,6 @@ export default function Rotas() {
         },
         tabBarStyle: [{
           display: "flex",
-         // position: 'absolute',
           height: 70,
         }, null
         ]
