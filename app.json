@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "gatito",
+    "name": "Gatito",
     "slug": "gatito",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,10 +9,11 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#A050BE"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/45747f66-261f-4ce7-ad49-21b1075c9509"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,14 +21,15 @@
     "ios": {
       "supportsTablet": true
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+    "extra": {
+      "eas": {
+        "projectId": "45747f66-261f-4ce7-ad49-21b1075c9509"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "owner": "fabiosc1979",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "android": {}
   }
 }
