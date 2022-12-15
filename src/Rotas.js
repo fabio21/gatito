@@ -25,8 +25,8 @@ export default function Rotas() {
           fontWeight: 'bold',
           fontSize: 16,
           lineHeight: 21,
-          marginTop: 3,
-          paddingTop: 10,
+          marginTop: -35,
+          paddingTop: 20,
           backgroundColor: cores.laranja
         },
         tabBarStyle: [{
